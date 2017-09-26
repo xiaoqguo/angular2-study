@@ -18,4 +18,7 @@ import {Hero} from './hero';
 
 export class HeroDetailComponent{
     @Input() hero: Hero;
+    // goBack():void {
+    //   this.location.back();
+    // }
 }
